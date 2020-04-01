@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Start
   m_EditorClassIdentifier: 
-  gameText: Je wordt wakker door het gefluit van vogels en het golven van de zee.
-    Je doet jouw ogen open en kijkt om je heen, je bevindt je op een verlaten strand.
-    Links van jou zie je een rotswand. Rechts een jungle.
+  gameText: '"je bevindt je op een verlaten strand. Links van jou zie je een rotswand.
+    Rechts een jungle."'
+  buttonTextLeft: Ga naar de rotswand
+  buttonTextMiddle: Ga naar de jungle
+  buttonTextRight: Verken de kust
   otherStates:
   - {fileID: 11400000, guid: c50e5fb4cf285b540af74d7a449a7c16, type: 2}
   - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}

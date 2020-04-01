@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Tijger
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
-  buttonTextMiddle: 
-  buttonTextRight: 
-  otherStates: []
+  gameText: "\u201CHet linker pad is gemakkelijk begaanbaar en je legt binnen een
+    korte tijd een flinke afstand af. Na een tijdje zie je een schaduw achter je
+    bewegen. De schaduw rent op je af en blijkt een tijger te zijn.\u201D"
+  buttonTextLeft: '"Ren weg"'
+  buttonTextMiddle: '"sla met de machete"'
+  buttonTextRight: '"Schiet"'
+  otherStates:
+  - {fileID: 11400000, guid: 278b3bcde4679bb44b2e99b3f7123dea, type: 2}
+  - {fileID: 11400000, guid: 537d8211f8ed1b1419cdbbd2dd87507b, type: 2}
+  - {fileID: 11400000, guid: 2f5aa2e6729287249ad454a5c938be1c, type: 2}

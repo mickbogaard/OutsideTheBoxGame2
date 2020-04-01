@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Vervallen huis 2
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
-  buttonTextMiddle: 
+  gameText: "\u201CIn het vervallen huis vind je een lijk van een man, de man heeft
+    een pistool vast en heeft het in zijn mond gestoken.\u201D"
+  buttonTextLeft: '"pak het pistool en ga terug naar de splitsing"'
+  buttonTextMiddle: '"Ga terug naar de splitsing"'
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}
+  - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}

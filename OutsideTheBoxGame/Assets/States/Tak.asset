@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Tak
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
-  buttonTextMiddle: 
+  gameText: "\u201CJe weet de tak af te hakken en pakt deze op, je zou dit als een
+    fakkel kunnen gebruiken als je het weet aan te steken.\u201D"
+  buttonTextLeft: '"Loop verder"'
+  buttonTextMiddle: '"Ga terug naar het strand"'
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}
+  - {fileID: 11400000, guid: d0f149fe084cb6341a15d486f16f9e6b, type: 2}

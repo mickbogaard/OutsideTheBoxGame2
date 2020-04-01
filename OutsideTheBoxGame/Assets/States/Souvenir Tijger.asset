@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Souvenir Tijger
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
-  buttonTextMiddle: 
-  buttonTextRight: 
-  otherStates: []
+  gameText: "\u201CTerwijl je verder loopt ben je naar jouw souvenirs aan het kijken,
+    in de reflectie van de sneeuwbol zie je een tijger achter je sluipen.\u201D"
+  buttonTextLeft: '"Ren weg"'
+  buttonTextMiddle: '"Sla met machete"'
+  buttonTextRight: '"Schiet"'
+  otherStates:
+  - {fileID: 11400000, guid: a77ef7c6392d8324b9ad3b2abe8d7584, type: 2}
+  - {fileID: 11400000, guid: 537d8211f8ed1b1419cdbbd2dd87507b, type: 2}
+  - {fileID: 11400000, guid: 2f5aa2e6729287249ad454a5c938be1c, type: 2}

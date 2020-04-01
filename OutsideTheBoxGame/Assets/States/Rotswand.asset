@@ -16,4 +16,9 @@ MonoBehaviour:
     je op een eiland. Achter de jungle die je eerder zag bevind zich een vulkaan.
     Wellicht kun je meer zien als je daar heen gaat. Verder blijkt er achter de rotswand
     een grot te zijn.
-  otherStates: []
+  buttonTextLeft: Ga naar de grot
+  buttonTextMiddle: Ga terug naar het strand
+  buttonTextRight: 
+  otherStates:
+  - {fileID: 11400000, guid: 038eff3f16efab54da95471311ce449f, type: 2}
+  - {fileID: 11400000, guid: 57df3dea1866e9344a7a5aa848fbcddc, type: 2}

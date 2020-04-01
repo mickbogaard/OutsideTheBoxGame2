@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Vulkaan
   m_EditorClassIdentifier: 
-  gameText: 
+  gameText: "\u201CEenmaal boven aan de vulkaan heb je een prachtig uitzicht, je
+    ziet ook een gestalte staan. Bij verdere inspectie zie je dat het een jongen
+    is van jouw leeftijd. Hij zit in de verte te staren.\""
   buttonTextLeft: 
-  buttonTextMiddle: 
+  buttonTextMiddle: '"Praat niet met hem"'
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7cf99f5a011b29c4596245b24d94b4ad, type: 2}

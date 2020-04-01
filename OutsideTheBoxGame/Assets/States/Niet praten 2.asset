@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Niet praten 2
   m_EditorClassIdentifier: 
-  gameText: 
+  gameText: "\u201CNa een half uur stil gezeten te hebben zie je de jongen opstaan
+    en weglopen, tot dat hij jou ziet. Hij loopt naar je toe en stelt zichzelf voor
+    als Jeff. Hij vraagt zich af waarom je niks tegen hem zei\u201D"
   buttonTextLeft: 
   buttonTextMiddle: 
   buttonTextRight: 

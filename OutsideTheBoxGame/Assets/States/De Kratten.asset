@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
-  m_Name: New State
+  m_Name: De Kratten
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
-  buttonTextMiddle: 
+  gameText: "\u201CIn de eerste twee kratten vind je een aantal souvenirs uit Parijs,
+    de derde krat bevat een machete.\u201D"
+  buttonTextLeft: "\u201CNeem de souvenirs mee en ga terug\u201D"
+  buttonTextMiddle: "\u201CNeem de machete mee en ga terug\u201D"
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: d0f149fe084cb6341a15d486f16f9e6b, type: 2}
+  - {fileID: 11400000, guid: d0f149fe084cb6341a15d486f16f9e6b, type: 2}

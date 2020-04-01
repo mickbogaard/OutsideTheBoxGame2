@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Dieper in de grot
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
+  gameText: "\u201CNadat je dichter bij bent gelopen zie je dat dit op een ge\xEFmproviseerde
+    verblijfplaats lijkt. Je ziet een laken en een dierenhuid die waarschijnlijk
+    als een bed functioneren, een verroeste pan en een gedoofd kampvuur. Er schijnt
+    hier ook wat licht door een gleuf in het plafond. Onder de gleuf zie je een andere
+    verroeste pan met wat regenwater erin.\u201D"
+  buttonTextLeft: '"Ga terug naar de rotswand"'
   buttonTextMiddle: 
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: c50e5fb4cf285b540af74d7a449a7c16, type: 2}

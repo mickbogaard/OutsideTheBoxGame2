@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Niet praten
   m_EditorClassIdentifier: 
-  gameText: 
+  gameText: "\u201CJe zit een hele tijd in de verte te staren zonder iets tegen de
+    man te zeggen.\u201D"
   buttonTextLeft: 
-  buttonTextMiddle: 
+  buttonTextMiddle: '"Praat niet met hem"'
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 53f7994f076de0c48bfe5230cea16a25, type: 2}

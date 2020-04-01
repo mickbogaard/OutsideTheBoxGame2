@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Tijger Machete
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
+  gameText: "\u201CJe draait je om, om de tijger te slaan. Echter heb je zeer weinig
+    ervaring met een machete en als gevolg sla je dan ook mis. Vervolgens slaat de
+    tijger je tegen de grond\u201D"
+  buttonTextLeft: probeer het opnieuw
   buttonTextMiddle: 
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: 5d64f8e93d617e642842ea6920f0bc3b, type: 2}

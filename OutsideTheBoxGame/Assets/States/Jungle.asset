@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Jungle
   m_EditorClassIdentifier: 
-  gameText: De jungle is dichtbebost en zonder beschermende kleding wordt je vaak
-    door allerlei insecten gestoken. Op een gegeven moment vindt je een wat meer
-    minder bebost gebied. Na een uur te hebben gelopen ben je vermoeid en kom je
-    aan bij een splitsing.
-  otherStates: []
+  gameText: "\u201CDe jungle is dichtbebost en zonder beschermende kleding wordt
+    je vaak door allerlei insecten gestoken. Op een gegeven moment vindt je een wat
+    meer minder bebost gebied. Na een uur te hebben gelopen ben je vermoeid en kom
+    je aan bij een splitsing."
+  buttonTextLeft: "\u201CGa naar links\u201D "
+  buttonTextMiddle: '"Ga naar rechts"'
+  buttonTextRight: '"Ga terug naar het strand"'
+  otherStates:
+  - {fileID: 11400000, guid: 47d7334df94e23f47a999d8f91a51d32, type: 2}
+  - {fileID: 11400000, guid: e96d83ef5807c9a4587e3b4c8d10699d, type: 2}
+  - {fileID: 11400000, guid: d0f149fe084cb6341a15d486f16f9e6b, type: 2}

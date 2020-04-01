@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Tijger ren
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
+  gameText: "\u201CMet de tijger in je hielen ren je weg, je rent sneller dan je
+    ooit in je leven hebt gedaan. Maar helaas weet de tijger je te pakken te krijgen.\u201D"
+  buttonTextLeft: probeer het opnieuw
   buttonTextMiddle: 
   buttonTextRight: 
-  otherStates: []
+  otherStates:
+  - {fileID: 11400000, guid: 5d64f8e93d617e642842ea6920f0bc3b, type: 2}
