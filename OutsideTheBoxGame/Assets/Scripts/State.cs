@@ -6,7 +6,10 @@ using UnityEngine.UI;
 [CreateAssetMenu (menuName = "State")]
 public class State : ScriptableObject
 {
-    [SerializeField] string gameText;
+    //[SerializeField] string gameText;
+
+    public string gameText;
+
     [SerializeField] string buttonTextLeft;
     [SerializeField] string buttonTextMiddle;
     [SerializeField] string buttonTextRight;
@@ -14,6 +17,9 @@ public class State : ScriptableObject
 
     public string GetStateText()
     {
+        GameObject.Find("Story Text").GetComponent<TypeWriterEffect>().fullText = gameText;
+        GameObject.Find("Story Text").GetComponent<TypeWriterEffect>().startText = true;
+
         return gameText;
     }
 

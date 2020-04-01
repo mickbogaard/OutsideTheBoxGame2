@@ -5,9 +5,14 @@ using UnityEngine.UI;
 
 public class MainGame : MonoBehaviour
 {
-    [SerializeField] Text textElement;
+    public Text textElement;
+
+    //[SerializeField] Text textElement;
     [SerializeField] State startState;
     State state;
+
+    public string textDisplay;
+
 
     public Button buttonLeft;
     public Button buttonMiddle;
