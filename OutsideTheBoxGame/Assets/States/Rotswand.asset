@@ -19,6 +19,7 @@ MonoBehaviour:
   buttonTextLeft: Ga naar de grot
   buttonTextMiddle: Ga terug naar het strand
   buttonTextRight: 
+  buttonTextExtra: 
   otherStates:
   - {fileID: 11400000, guid: 038eff3f16efab54da95471311ce449f, type: 2}
-  - {fileID: 11400000, guid: 57df3dea1866e9344a7a5aa848fbcddc, type: 2}
+  - {fileID: 11400000, guid: d0f149fe084cb6341a15d486f16f9e6b, type: 2}

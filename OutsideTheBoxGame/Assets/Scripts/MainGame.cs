@@ -12,16 +12,34 @@ public class MainGame : MonoBehaviour
     public Button buttonLeft;
     public Button buttonMiddle;
     public Button buttonRight;
+    public Button buttonExtra;
+
+    public bool machete;
+    public bool souvenir;
+    public bool fakkel;
+    public bool pistool;
 
     void Start()
     {
         state = startState;
         textElement.text = state.GetStateText();
         SetButtonText();
+        RestartGame();
+        buttonExtra.gameObject.SetActive(false);
     }
 
     public void leftClick()
     {
+        if (state.name == "Kratten")
+        {
+            souvenir = true;
+        }
+
+        if (state.name == "Vervallen huis 2")
+        {
+            pistool = true;
+        }
+
         State[] statesArray = state.GetOtherStates();
         state = statesArray[0];
         textElement.text = state.GetStateText();
@@ -30,6 +48,11 @@ public class MainGame : MonoBehaviour
 
     public void middleClick()
     {
+        if (state.name == "Kratten")
+        {
+            machete = true;
+        }
+
         State[] statesArray = state.GetOtherStates();
         state = statesArray[1];
         textElement.text = state.GetStateText();
@@ -40,6 +63,14 @@ public class MainGame : MonoBehaviour
     {
         State[] statesArray = state.GetOtherStates();
         state = statesArray[2];
+        textElement.text = state.GetStateText();
+        SetButtonText();
+    }
+
+    public void extraClick()
+    {
+        State[] statesArray = state.GetOtherStates();
+        state = statesArray[3];
         textElement.text = state.GetStateText();
         SetButtonText();
     }
@@ -63,6 +94,17 @@ public class MainGame : MonoBehaviour
             buttonRight.gameObject.SetActive(false);
         }
         else buttonRight.gameObject.SetActive(true);
+
+        if (machete == true && buttonExtra.GetComponentInChildren<Text>().text != "" && fakkel == false)
+        {
+            buttonExtra.gameObject.SetActive(true);
+        }
+        else buttonExtra.gameObject.SetActive(false);
+
+        if (state.name == "Tak")
+        {
+            fakkel = true;
+        }
     }
 
     private void SetButtonText()
@@ -70,5 +112,14 @@ public class MainGame : MonoBehaviour
         buttonLeft.GetComponentInChildren<Text>().text = state.GetButtonTextLeft();
         buttonMiddle.GetComponentInChildren<Text>().text = state.GetButtonTextMiddle();
         buttonRight.GetComponentInChildren<Text>().text = state.GetButtonTextRight();
+        buttonExtra.GetComponentInChildren<Text>().text = state.GetButtonTextExtra();
+    }
+
+    private void RestartGame()
+    {
+        machete = false;
+        souvenir = false;
+        fakkel = false;
+        pistool = false;
     }
 }

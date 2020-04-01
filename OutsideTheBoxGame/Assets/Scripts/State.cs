@@ -10,6 +10,7 @@ public class State : ScriptableObject
     [SerializeField] string buttonTextLeft;
     [SerializeField] string buttonTextMiddle;
     [SerializeField] string buttonTextRight;
+    [SerializeField] string buttonTextExtra;
     [SerializeField] State[] otherStates;
 
     public string GetStateText()
@@ -30,6 +31,11 @@ public class State : ScriptableObject
     public string GetButtonTextRight()
     {
         return buttonTextRight;
+    }
+
+    public string GetButtonTextExtra()
+    {
+        return buttonTextExtra;
     }
 
     public State[] GetOtherStates()
