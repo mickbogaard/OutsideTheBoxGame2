@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class TypeWriterEffect : MonoBehaviour
 {
-    public float delay = 0.07f;
+    public float delay = 0.03f;
     public string fullText;
     private string currentText = "";
     public bool startText = true;
+
+    public int forLoop = 0;
 
     State state;
 
@@ -22,12 +24,13 @@ public class TypeWriterEffect : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            delay = 0.03f;
+            delay = 0.005f;
         }
 
         if(startText == true)
         {
             StartCoroutine(ShowText());
+            delay = 0.03f;
             startText = false;
         }
     }
@@ -35,14 +38,14 @@ public class TypeWriterEffect : MonoBehaviour
     IEnumerator ShowText(){
         if (startText == true)
         {
-            for (int i = 0; i <= fullText.Length; i++)
+            for (forLoop = 0; forLoop <= fullText.Length; forLoop++)
             {
-                currentText = fullText.Substring(0, i);
+                currentText = fullText.Substring(0, forLoop);
                 this.GetComponent<Text>().text = currentText;
                 yield return new WaitForSeconds(delay);
-                if(i == fullText.Length)
+                if(forLoop == fullText.Length)
                 {
-                    delay = 0.07f;
+                    //delay = 0.07f;
                 }
             }
         }

@@ -19,6 +19,7 @@ public class State : ScriptableObject
     {
         GameObject.Find("Story Text").GetComponent<TypeWriterEffect>().fullText = gameText;
         GameObject.Find("Story Text").GetComponent<TypeWriterEffect>().startText = true;
+        GameObject.Find("Story Text").GetComponent<TypeWriterEffect>().forLoop = 0;
 
         return gameText;
     }
