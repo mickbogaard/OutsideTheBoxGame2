@@ -17,8 +17,10 @@ MonoBehaviour:
     meer minder bebost gebied. Na een uur te hebben gelopen ben je vermoeid en kom
     je aan bij een splitsing."
   buttonTextLeft: "\u201CGa naar links\u201D "
-  buttonTextMiddle: '"Ga naar rechts"'
-  buttonTextRight: '"Ga terug naar het strand"'
+  buttonTextMiddle: "\u201CGa naar rechts\u201D "
+  buttonTextRight: "\u201CGa terug het strand\u201D"
+  buttonTextExtra: 
+  buttonTextLeft2: 
   otherStates:
   - {fileID: 11400000, guid: 47d7334df94e23f47a999d8f91a51d32, type: 2}
   - {fileID: 11400000, guid: e96d83ef5807c9a4587e3b4c8d10699d, type: 2}

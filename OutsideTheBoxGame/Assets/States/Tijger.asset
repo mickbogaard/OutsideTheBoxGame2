@@ -15,9 +15,11 @@ MonoBehaviour:
   gameText: "\u201CHet linker pad is gemakkelijk begaanbaar en je legt binnen een
     korte tijd een flinke afstand af. Na een tijdje zie je een schaduw achter je
     bewegen. De schaduw rent op je af en blijkt een tijger te zijn.\u201D"
-  buttonTextLeft: '"Ren weg"'
-  buttonTextMiddle: '"sla met de machete"'
-  buttonTextRight: '"Schiet"'
+  buttonTextLeft: "\u201CRen weg\u201D"
+  buttonTextMiddle: "\u201CSla met de machete\u201D"
+  buttonTextRight: "\u201CSchiet\u201D"
+  buttonTextExtra: 
+  buttonTextLeft2: 
   otherStates:
   - {fileID: 11400000, guid: 278b3bcde4679bb44b2e99b3f7123dea, type: 2}
   - {fileID: 11400000, guid: 537d8211f8ed1b1419cdbbd2dd87507b, type: 2}

@@ -22,17 +22,14 @@ public class State : ScriptableObject
     {
         return buttonTextLeft;
     }
-
     public string GetButtonTextMiddle()
     {
         return buttonTextMiddle;
     }
-
     public string GetButtonTextRight()
     {
         return buttonTextRight;
     }
-
     public string GetButtonTextExtra()
     {
         return buttonTextExtra;
