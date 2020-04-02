@@ -17,7 +17,10 @@ MonoBehaviour:
   buttonTextLeft: Ga naar de rotswand
   buttonTextMiddle: Ga naar de jungle
   buttonTextRight: Verken de kust
+  buttonTextExtra: Het Ziet er naar uit dat ik hier met mijn machete doorheen kan
+  buttonTextLeft2: 
   otherStates:
   - {fileID: 11400000, guid: c50e5fb4cf285b540af74d7a449a7c16, type: 2}
   - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}
   - {fileID: 11400000, guid: 57df3dea1866e9344a7a5aa848fbcddc, type: 2}
+  - {fileID: 11400000, guid: e396007a6f14a8b49b4c115632ade67b, type: 2}

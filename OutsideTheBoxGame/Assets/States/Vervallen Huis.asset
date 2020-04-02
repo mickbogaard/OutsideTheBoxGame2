@@ -18,6 +18,8 @@ MonoBehaviour:
   buttonTextLeft: '"Ga naar binnen"'
   buttonTextMiddle: '"Ga terug naar de splitsing"'
   buttonTextRight: 
+  buttonTextExtra: 
+  buttonTextLeft2: 
   otherStates:
   - {fileID: 11400000, guid: d5bd1e7756f12a846a8bd1d3a6d64355, type: 2}
   - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}

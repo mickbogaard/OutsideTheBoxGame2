@@ -17,6 +17,8 @@ MonoBehaviour:
   buttonTextLeft: '"Ga verder"'
   buttonTextMiddle: '"Ga terug naar de splitsing"'
   buttonTextRight: 
+  buttonTextExtra: 
+  buttonTextLeft2: 
   otherStates:
   - {fileID: 11400000, guid: d18de209eb467734cad490d2dea2d485, type: 2}
   - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}
