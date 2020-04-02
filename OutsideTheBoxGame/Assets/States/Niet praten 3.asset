@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
+  m_Name: Niet praten 3
+  m_EditorClassIdentifier: 
+  gameText: "\u201CDe jonge stelt zichzelf voor als Jeff en zegt dat het niet erg
+    is als je verlegen bent. Hij kan zich voorstellen dat je het moeilijk hebt om
+    je aan het eiland leven aan te passen. Hij zegt dat hij hier al een week is.
+    Hij vraagt zich af of je van plan bent om hier voorlopig te blijven om te kijken
+    of er een schip langs vaart of dat je van plan bent een vlot te bouwen en weg
+    te gaan."
+  buttonTextLeft: "\u201CStel voor om samen het eiland te verlaten\u201D"
+  buttonTextMiddle: "\u201CStel voor om voorlopig op het eiland te blijven\u201D"
+  buttonTextRight: 
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 11400000, guid: 17ea6406008f4944c89f406762286ff1, type: 2}
+  - {fileID: 11400000, guid: d1c01c935c430df4ba74c5e05d9441af, type: 2}

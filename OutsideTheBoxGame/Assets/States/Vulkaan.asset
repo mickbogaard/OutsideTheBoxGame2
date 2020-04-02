@@ -15,9 +15,10 @@ MonoBehaviour:
   gameText: "\u201CEenmaal boven aan de vulkaan heb je een prachtig uitzicht, je
     ziet ook een gestalte staan. Bij verdere inspectie zie je dat het een jongen
     is van jouw leeftijd. Hij zit in de verte te staren.\""
-  buttonTextLeft: 
+  buttonTextLeft: "\u201CPraat met hem\u201D"
   buttonTextMiddle: '"Praat niet met hem"'
   buttonTextRight: 
+  buttonTextExtra: 
   otherStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: caf8071223f8eb248955c6e03941a99a, type: 2}
   - {fileID: 11400000, guid: 7cf99f5a011b29c4596245b24d94b4ad, type: 2}

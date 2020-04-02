@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
   m_Name: Grot
   m_EditorClassIdentifier: 
-  gameText: 
-  buttonTextLeft: 
+  gameText: "\u201CHet is te donker in de grot om iets te kunnen zien.\u201D"
+  buttonTextLeft: "\u201CGa terug naar de rotswand\u201D"
   buttonTextMiddle: 
   buttonTextRight: 
-  otherStates: []
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 11400000, guid: c50e5fb4cf285b540af74d7a449a7c16, type: 2}

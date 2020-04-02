@@ -15,7 +15,10 @@ MonoBehaviour:
   gameText: "\u201CNa een half uur stil gezeten te hebben zie je de jongen opstaan
     en weglopen, tot dat hij jou ziet. Hij loopt naar je toe en stelt zichzelf voor
     als Jeff. Hij vraagt zich af waarom je niks tegen hem zei\u201D"
-  buttonTextLeft: 
-  buttonTextMiddle: 
+  buttonTextLeft: "\u201CZeg dat je verlegen was\u201D"
+  buttonTextMiddle: "\u201CZeg niks\u201D"
   buttonTextRight: 
-  otherStates: []
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 11400000, guid: 77bd4718b4ec6054aa18d4b2b4a04ff4, type: 2}
+  - {fileID: 11400000, guid: 77bd4718b4ec6054aa18d4b2b4a04ff4, type: 2}

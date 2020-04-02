@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
+  m_Name: Praten
+  m_EditorClassIdentifier: 
+  gameText: "\u201CJe loopt naar de jonge toe, hij ziet dit en staat op. Jullie introduceren
+    jullie zelf aan elkaar en praten vervolgens over het eiland en over jullie zelf.
+    Jeff bleek een week eerder aangespoeld te zijn op het eiland dan jij. Op een
+    gegeven moment komen jullie bij het onderwerp over wat jullie nu gaan doen. Wat
+    doe je?\u201D"
+  buttonTextLeft: "\u201CStel voor om samen het eiland te verlaten\u201D"
+  buttonTextMiddle: "\u201CStel voor om voorlopig op het eiland te blijven\u201D"
+  buttonTextRight: 
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 11400000, guid: 17ea6406008f4944c89f406762286ff1, type: 2}
+  - {fileID: 11400000, guid: d1c01c935c430df4ba74c5e05d9441af, type: 2}

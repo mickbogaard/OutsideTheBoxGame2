@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
-  m_Name: Tijger Schiet
+  m_Name: Blijven
   m_EditorClassIdentifier: 
-  gameText: "\u201CJe draait je om pakt jouw pistool en weet de tijger in zijn poot
-    te raken, vervolgens loopt hij weg.\u201D"
-  buttonTextLeft: '"Ga verder"'
+  gameText: "\u201C9 Jaar later hebben jij en Jeff een gelukkige relatie en een baby
+    op komst. Jullie wonen in het vervallen huis dat je eerder hebt gevonden. Jullie
+    hebben het samen gerenoveerd. Jeff is een aardige vent, je bent gelukkig met
+    jouw leven.\u201D"
+  buttonTextLeft: 
   buttonTextMiddle: 
   buttonTextRight: 
   buttonTextExtra: 
-  otherStates:
-  - {fileID: 11400000, guid: d18de209eb467734cad490d2dea2d485, type: 2}
+  otherStates: []

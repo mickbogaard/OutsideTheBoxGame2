@@ -19,6 +19,10 @@ public class MainGame : MonoBehaviour
     public Button buttonRight;
     public Button buttonExtra;
 
+    [SerializeField] State macheteSecret;
+    [SerializeField] State grotFakkel;
+    [SerializeField] State souvenirTijger;
+
     public bool machete;
     public bool souvenir;
     public bool fakkel;
@@ -30,7 +34,7 @@ public class MainGame : MonoBehaviour
         state = startState;
         textElement.text = state.GetStateText();
         SetButtonText();
-        buttonExtra.gameObject.SetActive(false);
+        //buttonExtra.gameObject.SetActive(false);
     }
 
     public void leftClick()
@@ -45,8 +49,29 @@ public class MainGame : MonoBehaviour
             pistool = true;
         }
 
-        State[] statesArray = state.GetOtherStates();
-        state = statesArray[0];
+        if (state.name == "Rotswand" && fakkel == true || state.name == "Jungle" && souvenir == true)
+        {
+            if (state.name == "Rotswand" && fakkel == true)
+                state = grotFakkel;
+            if (state.name == "Jungle" && souvenir == true)
+                state = souvenirTijger;
+        }
+        else
+        {
+            State[] statesArray = state.GetOtherStates();
+            state = statesArray[0];
+        }
+
+        //if (state.name == "Jungle" && souvenir == true)
+        //{
+        //    state = souvenirTijger;
+        //}
+
+        //if (state != grotFakkel)
+        //{
+
+        //}
+
         textElement.text = state.GetStateText();
         SetButtonText();
     }
@@ -58,8 +83,18 @@ public class MainGame : MonoBehaviour
             machete = true;
         }
 
-        State[] statesArray = state.GetOtherStates();
-        state = statesArray[1];
+        if (state.name == "Start" && machete == true)
+        {
+            state = macheteSecret;
+        }
+
+        if (state != macheteSecret)
+        {
+            State[] statesArray = state.GetOtherStates();
+            state = statesArray[1];
+        }
+
+
         textElement.text = state.GetStateText();
         SetButtonText();
     }
@@ -102,11 +137,12 @@ public class MainGame : MonoBehaviour
         else buttonRight.gameObject.SetActive(true);
 
         //sets extra button inactive if the player already has the torch
-        if (machete == true && buttonExtra.GetComponentInChildren<Text>().text != "" && fakkel == false)
-        {
-            buttonExtra.gameObject.SetActive(true);
-        }
-        else buttonExtra.gameObject.SetActive(false);
+        //if (machete == true && buttonExtra.GetComponentInChildren<Text>().text != "" && fakkel == false)
+        //{
+        //    buttonExtra.gameObject.SetActive(true);
+        //}
+
+        ////////////////////////////////////////////////////else buttonExtra.gameObject.SetActive(false);
 
         //if player reaches this state they unlock the torch
         if (state.name == "Tak")
@@ -115,19 +151,19 @@ public class MainGame : MonoBehaviour
         }
 
         //unlocks machete option for tiger scene if the player has found the machete
-        if (state.name == "Tijger" && machete == false)
+        if (state.name == "Tijger" && machete == false || state.name == "Souvenir Tijger" && machete == false)
         {
             buttonMiddle.gameObject.SetActive(false);
         }
-        else buttonMiddle.gameObject.SetActive(true);
+        //else buttonMiddle.gameObject.SetActive(true);
 
-        if (state.name == "Tijger" && pistool == false)
+        if (state.name == "Tijger" && pistool == false || state.name == "Souvenir Tijger" && pistool == false)
         {
             buttonRight.gameObject.SetActive(false);
         }
-        else buttonRight.gameObject.SetActive(true);
+        //else buttonRight.gameObject.SetActive(true);
 
-        Debug.Log(state.name);
+        Debug.Log(state.name + " " + machete + "fakkel: " + fakkel);
     }
 
     private void SetButtonText()
@@ -135,7 +171,7 @@ public class MainGame : MonoBehaviour
         buttonLeft.GetComponentInChildren<Text>().text = state.GetButtonTextLeft();
         buttonMiddle.GetComponentInChildren<Text>().text = state.GetButtonTextMiddle();
         buttonRight.GetComponentInChildren<Text>().text = state.GetButtonTextRight();
-        buttonExtra.GetComponentInChildren<Text>().text = state.GetButtonTextExtra();
+        /////////////////////////buttonExtra.GetComponentInChildren<Text>().text = state.GetButtonTextExtra();
     }
 
     private void RestartGame()

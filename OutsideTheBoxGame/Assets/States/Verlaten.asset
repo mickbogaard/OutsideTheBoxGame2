@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
+  m_Name: Verlaten
+  m_EditorClassIdentifier: 
+  gameText: "\u201CJeff en jij werken maanden aan het bouwen van een stevige vlot.
+    Jij en Jeff hebben ondertussen een relatie met elkaar. Nadat jullie van het laken
+    een zeil hebben gemaakt en het aan de mast vastmaken is het eindelijk een zeewaardig
+    voertuig. Helaas begint het storm seizoen wanneer jullie klaar zijn met het vlot
+    en is het niet veilig om te vertrekken. Na twee maanden kom je erachter dat je
+    zwanger bent, helaas is het niet veilig om te vertrekken in deze zware storm.\u201D"
+  buttonTextLeft: '"Verder"'
+  buttonTextMiddle: 
+  buttonTextRight: 
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 11400000, guid: 2c9271adbc1ff8344aa44167e5c4350b, type: 2}

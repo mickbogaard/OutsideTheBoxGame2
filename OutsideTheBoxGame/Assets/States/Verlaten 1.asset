@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7453d02c39e49104297a0a0414bd16dd, type: 3}
+  m_Name: Verlaten 1
+  m_EditorClassIdentifier: 
+  gameText: "\u201CNa nog bijna een jaar te wachten ben je hoogzwanger, maar jullie
+    moeten nu wel weg aangezien de stormen alleen maar zwaarder worden. Jullie besluiten
+    het erop te wagen en verlaten het eiland. De enorme golven maken het moeilijk
+    om te balanceren. Na een paar uur is het water eindelijk rustig. Nadat jullie
+    bij zijn gekomen merken jullie dat het weer gaat stormen en je merkt dat jouw
+    water is gebroken. Dit is geen geschikte plaats om te bevallen, maar je hebt
+    geen andere keuze. Terwijl je zit te bevallen komt er een enorme golf die jou,
+    Jeff en jullie kind wegspoelt."
+  buttonTextLeft: '"Verder"'
+  buttonTextMiddle: 
+  buttonTextRight: 
+  buttonTextExtra: 
+  otherStates:
+  - {fileID: 0}

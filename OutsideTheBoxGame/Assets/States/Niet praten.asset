@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameText: "\u201CJe zit een hele tijd in de verte te staren zonder iets tegen de
     man te zeggen.\u201D"
-  buttonTextLeft: 
+  buttonTextLeft: "\u201CPraat met hem\u201D"
   buttonTextMiddle: '"Praat niet met hem"'
   buttonTextRight: 
+  buttonTextExtra: 
   otherStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: caf8071223f8eb248955c6e03941a99a, type: 2}
   - {fileID: 11400000, guid: 53f7994f076de0c48bfe5230cea16a25, type: 2}

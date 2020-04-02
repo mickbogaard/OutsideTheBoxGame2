@@ -16,8 +16,8 @@ MonoBehaviour:
     Je hebt mazzel dat je de tijger in jouw sneeuwbol zag, anders had hij je waarschijnlijk
     te pakken gekregen.\u201D"
   buttonTextLeft: '"Ga verder"'
-  buttonTextMiddle: '"Ga terug naar de splitsing"'
+  buttonTextMiddle: 
   buttonTextRight: 
+  buttonTextExtra: 
   otherStates:
-  - {fileID: 11400000, guid: d18de209eb467734cad490d2dea2d485, type: 2}
-  - {fileID: 11400000, guid: 70cf9332198948a49802f408e5d6bd3a, type: 2}
+  - {fileID: 11400000, guid: e96d83ef5807c9a4587e3b4c8d10699d, type: 2}
